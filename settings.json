@@ -1,0 +1,131 @@
+{
+    "experimental.rendering.forceFullRepaint": true,
+    "launchMode" : "maximized",
+    "defaultProfile" : "Cirno",
+    "actions": 
+    [
+        { "command": { "action": "splitPane", "split": "auto", "profile": "Reimu" }, "keys": "alt+shift+1" },
+        { "command": { "action": "splitPane", "split": "auto", "profile": "Dairi" }, "keys": "alt+shift+2" },
+        { "command": { "action": "splitPane", "split": "auto", "profile": "Cirno" }, "keys": "alt+shift+3" },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {                       
+            "backgroundImageAlignment": "right",
+            "backgroundImageOpacity": 0.5,
+            "backgroundImageStretchMode": "uniform",
+            "opacity": 70,
+            "colorScheme" : "One Half Dark",
+            "cursorColor" : "#FF0000",
+            "icon": "ms-appdata:///Local/icons/heart.png",
+            "font" : {
+                "face": "Cascadia Code PL"
+            } ,            
+            "experimental.repositionCursorWithMouse": true,
+            "experimental.rightClickContextMenu": true,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "name": "Cirno",
+                "hidden": false,
+                "backgroundImage": "ms-appdata:///Local/backgrounds/Cirno.png"
+            },
+            {
+                "name": "Reimu",
+                "hidden": false,
+                "backgroundImage": "ms-appdata:///Local/backgrounds/Reimu.png"
+            },
+            {
+                "name": "Dairi",
+                "hidden": false,
+                "backgroundImage": "ms-appdata:///Local/backgrounds/Dairi.png"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u041a\u043e\u043c\u0430\u043d\u0434\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{b9a3b582-7692-587b-bba0-19b5a44a3aab}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{cbc6e02c-5616-5da2-833c-1aea02ced666}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{957a004e-2ee3-5a11-8a85-82b57578bf6b}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2a929fec-a954-5325-9f10-fc498579f681}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": []
+}
